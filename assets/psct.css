@@ -1,0 +1,379 @@
+header {
+    background-color: #e8aaaa;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.logo>img{
+  width: 10%;
+}
+.logo1 img {
+    max-width: 300px;
+    max-height: 70px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    /* margin-left: 0; */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: rgb(41, 17, 226);
+}
+
+.highlighted-text {
+  color: #ff0000; /* Mã màu mè của bạn */
+  font-size: 24px; /* Kích thước chữ */
+  font-weight: bold; /* Độ đậm của chữ */
+  text-transform: uppercase; /* Chuyển đổi thành chữ hoa */
+  text-align: center;
+}
+
+.address {
+    margin-left: auto;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.phone,
+.store {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+}
+
+.search-bar .search-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar .search-button:hover {
+    background-color: rgb(41, 17, 226);
+}
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.product-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.product-image {
+  margin-right: 20px;
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.product-details {
+  flex: 1;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.product-details h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.product-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-details table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.product-details th {
+  text-align: left;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+.product-details td {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+th {
+  background-color: #e7bebe;
+}
+
+tr:hover {
+  background-color: #d78c8c;
+}
+
+tr.clicked {
+  background-color: #a07a7a;
+}
+.highlighted-text {
+  color: #ff0000; /* Mã màu mè của bạn */
+  font-size: 24px; /* Kích thước chữ */
+  font-weight: bold; /* Độ đậm của chữ */
+  text-transform: uppercase; /* Chuyển đổi thành chữ hoa */
+  text-align: center;
+}
+
+
+.promo {
+  background-color: #fff4d4;
+  border: 1px solid #ffd200;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.promo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn-promo {
+  padding: 10px 20px;
+  background-color: #ffd200;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-promo:hover {
+  background-color: #ffeb3b;
+}
+.shopping-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.buy-now, .installment, .cart {
+  margin-right: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.cart-items {
+  background-color: #333;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 50%;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.product-review {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.review-stars {
+  color: #f2b01e;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.star {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.review-count {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.write-review {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f2b01e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #8c6eee;
+ 
+    width: 100%;
+  color: #fff;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-section,
+.contact-section,
+.social-section {
+  flex-basis: 33%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
+.right-header{
+  border: 1px solid black;
+}
+.right-header-d1{
+  background-color: rgb(53, 53, 53);
+  padding: 10px;
+  color: white;
+}
+.right-header-2>ul{
+  background-color: rgba(226, 224, 224, 0.449);
+  margin: 0;
+  padding: 20px 25px;
+}
+.right-header-2>ul li{
+  border-bottom: 1px solid rgb(158, 158, 158);
+  padding: 10px;
+}
+.right-header-3-img{
+  width: 15%;
+}
+.right-header-3-img>img{
+  width: 100%;
+}
+.right-header-3{
+  display: flex;
+}
